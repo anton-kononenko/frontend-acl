@@ -1,0 +1,13 @@
+<html>
+<head>
+	<title>Frontend ACL Example</title>
+	<script type="text/javascript" src="./frontend-acl.js"></script>
+</head>
+<body data-acl-count="2" data-current-acl="1">
+	<p data-acl="1">This text can see anyone</p>
+	<form data-acl="1">
+		<input type="text" value="Value" />
+		<button data-acl="2" type="submit">Hidden button</button>
+	</form>
+</body>
+</html>
